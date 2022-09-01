@@ -1,0 +1,20 @@
+public class Suma {
+private int a;
+private int b;
+private int resta;
+public void asignar(int a1, int b1){
+	a=a1;
+	b=b1;
+}
+public int suma(){
+	int r;
+	r=a+b;
+	return r;
+}
+public void rest(){
+	resta=a/b;
+}
+public void imprimir(){
+	System.out.println("Resta es " +resta);
+}
+}
